@@ -1,0 +1,13 @@
+.products {
+    margin: 2rem;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-item {
+    cursor: pointer;
+}

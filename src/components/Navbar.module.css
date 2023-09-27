@@ -1,0 +1,66 @@
+.navbar ul {
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar a{
+    color: white;
+}
+
+.mobile-nav a {
+    color: black;
+}
+
+a:hover,
+a.active{
+    color: rgb(0, 0, 0);
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (min-width: 330px) {
+    .navbar ul {
+        justify-content: space-around;  
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .navbar {
+        background-color: white;
+        width: 50%;
+        height: 100vh;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding-left: 1rem;
+        justify-content: flex-start;
+    }
+
+    .navbar a {
+        margin-bottom: 2rem;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    a:hover,
+    a.active{
+        color: rgb(182, 36, 36);
+    }
+}

@@ -1,0 +1,9 @@
+.cart {
+    margin: 1rem;
+}
+
+.cart-summary {
+    margin: 1rem;
+    text-align: right;
+    font-size: 30px;
+}

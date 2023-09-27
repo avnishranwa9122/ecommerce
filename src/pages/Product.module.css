@@ -1,0 +1,47 @@
+.product {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.description {
+    padding: 1rem;
+    width: 50%;
+}
+
+.product-desc {
+    font-size: 20px;
+}
+
+.rating {
+    font-size: 20px;
+}
+
+.rating span {
+    color: orange;
+}
+
+.price h2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.price h3 {
+    color: red;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+    .description {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .image {
+        width: 50%;
+    }
+    .product {
+        display: flex;
+    }
+}
